@@ -25,3 +25,11 @@ http://192.168.0.1:8080
 admin/test
 
 service jenkins restart
+
+
+Cobertura Plugin (Покрытие кода)
+
+Violations Plugin (Отчеты о коде — pylint, pyflakes, pep8)
+
+Git/Mercurial/SVN Plugin
+
