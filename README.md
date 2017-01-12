@@ -21,6 +21,7 @@ __________________________________________________________
 http://192.168.0.1:8080
 
 /var/lib/jenkins/users/username/config.xml --> #jbcrypt:$2a$10$razd3L1aXndFfBNHO95aj.IVrFydsxkcQCcLmujmFQzll3hcUrY7S
+
 admin/test
 
-
+service jenkins restart
