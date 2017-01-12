@@ -15,3 +15,12 @@ sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources
 sudo aptitude update
 
 sudo aptitude install jenkins
+
+__________________________________________________________
+
+http://192.168.0.1:8080
+
+/var/lib/jenkins/users/username/config.xml --> #jbcrypt:$2a$10$razd3L1aXndFfBNHO95aj.IVrFydsxkcQCcLmujmFQzll3hcUrY7S
+admin/test
+
+
