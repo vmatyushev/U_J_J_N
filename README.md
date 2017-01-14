@@ -33,3 +33,6 @@ Violations Plugin (Отчеты о коде — pylint, pyflakes, pep8)
 
 Git/Mercurial/SVN Plugin
 
+__________________________________________________________________________________
+sudo api-get install python-virtualenv
+
