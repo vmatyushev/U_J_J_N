@@ -1,4 +1,4 @@
-# U_J_P
+# U_J_J_N
 $ sudo vi /etc/network/interfaces 
 ________________________________________________________
 iface eth0 inet static 
@@ -8,6 +8,16 @@ gateway 192.168.0.254
 dns-nameservers 192.168.0.254 8.8.8.8
 auto eth0 
 _________________________________________________________
+
+
+sudo apt-get update
+sudo apt-get install nginx
+
+sudo apt-get install openjdk-7-jdk
+
+
+
+
 wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 
 sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
@@ -27,6 +37,13 @@ admin/test
 service jenkins restart
 
 
+
+
+
+
+
+
+
 Cobertura Plugin (Покрытие кода)
 
 Violations Plugin (Отчеты о коде — pylint, pyflakes, pep8)
@@ -34,5 +51,5 @@ Violations Plugin (Отчеты о коде — pylint, pyflakes, pep8)
 Git/Mercurial/SVN Plugin
 
 __________________________________________________________________________________
-sudo api-get install python-virtualenv
+sudo apt-get install python-virtualenv
 
